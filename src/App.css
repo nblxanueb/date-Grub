@@ -140,7 +140,7 @@ body {
 .dollar-sign1, .dollar-sign2, .dollar-sign3, .dollar-sign4 {
   background: transparent;
   border: none;
-  border-right: 1px solid;
+  border-right: 1px solid rgba(174,1,126,0.6);
   padding-left: 31px;
   padding-right: 31px;
   color: white;
@@ -233,6 +233,9 @@ body {
 }
 
 @media (max-width: 640px) {
+  html {
+    max-width: 640px;
+  }
   .popup-content{
     max-width: 80%;
   }
@@ -261,6 +264,6 @@ body {
     width: 90%;
   }
   .coffee, .drinks, .dinner, .loupe {
-  transform: translate(-25px, 2px);
+  transform: translate(-20px, 2px);
   }
 }
