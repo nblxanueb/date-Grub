@@ -261,6 +261,6 @@ body {
     width: 90%;
   }
   .coffee, .drinks, .dinner, .loupe {
-  transform: translate(-13px, 0px);
+  transform: translate(-25px, 2px);
   }
 }
