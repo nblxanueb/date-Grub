@@ -252,12 +252,12 @@ body {
     width: 90%;
   }
   .coffee {
-    padding-left: -10px;
+    padding-left: -100px;
   }
   .drinks {
-    padding-right: 10px;
+    padding-right: 100px;
   }
   dinner {
-    transform: translate(10px, 0px);
+    transform: translate(100px, 100px);
   }
 }
