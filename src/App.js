@@ -90,19 +90,19 @@ set1 = () => {
 
 set2 = () => {
   this.setState({
-    price: this.state.price = "2"
+    price: this.state.price = "1,2"
     })
 }
 
 set3 = () => {
   this.setState({
-    price: this.state.price = "3"
+    price: this.state.price = "1,2,3"
     })
 }
 
 set4 = () => {
   this.setState({
-    price: this.state.price = "4"
+    price: this.state.price = "1,2,3,4"
     })
 }
 
