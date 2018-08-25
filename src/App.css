@@ -47,7 +47,6 @@ main {
 
 .footer-text {
   transform: translate(0px, -20px);
-
 }
 
 .footer-link {
@@ -251,13 +250,8 @@ body {
   .restaurant-image {
     width: 90%;
   }
-  .coffee {
-    padding-left: -100px;
-  }
-  .drinks {
-    padding-right: 100px;
-  }
-  dinner {
-    transform: translate(100px, 100px);
+  .restaurant-type {
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
