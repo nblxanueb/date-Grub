@@ -256,16 +256,8 @@ body {
   .restaurant-image {
     width: 90%;
   }
-  .restaurant-type {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-  .coffee {
+  .coffee, .drinks, .dinner {
     height: 50%;
     padding: none;
-  }
-  .drinks {
-    height: 100%;
-    padding-right: 30%;
   }
 }
