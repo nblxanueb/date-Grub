@@ -1,0 +1,254 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.coffee, .drinks, .dinner {
+  height: 75%;
+  padding-top: 17%;
+}
+
+.loupe {
+  height: 65%;
+  padding-top: 17%;
+}
+
+.star {
+  height: 1em;
+  padding-left: 2px;
+  transform: translate(0px, 2px);
+}
+
+main {
+  height: 32em;
+}
+
+.App-header, .App-footer {
+  background-color: rgba(221,52,151,0.6);
+  padding: 20px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.App-footer {
+  font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+  font-size: 1em;
+  border: none;
+  border-top: 1px solid white;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.footer-text {
+  transform: translate(0px, -20px);
+
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #7a0177;
+}
+
+.yelp {
+  width: 5em;
+  transform: translate(0px, 17px);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+body {
+  background-color: rgba(247,104,161,0.8);
+}
+
+.search-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type {
+  padding-top: 15px;
+  width: 500px;
+}
+.restaurant-type, .search {
+  width: 56px;
+  height: 56px;
+  border-radius: 75px;
+  border: 2px solid rgba(174,1,126,0.6);
+  text-align: center;
+  font-size: 30px;
+  background: rgba(247,104,161,0.8);
+}
+
+.restaurant-type {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+ .active{
+   background-color: rgba(221,52,151,0.6);
+  color: white;
+ }
+
+.activePrice{
+   background-color: #666;
+  color: white;
+ }
+
+.search {
+  margin-top: 15px;
+}
+
+.price-range, .food-type, .location, .result-button {
+  border:  2px solid rgba(174,1,126,0.6);
+  border-radius: 5px;
+  max-width: 330px;
+  margin-top: 1em;
+  width: 1000px;
+  color: white;
+  background: rgba(247,104,161,0.8);
+  font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+  font-size: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+}
+
+.dollar-sign1, .dollar-sign2, .dollar-sign3, .dollar-sign4 {
+  background: transparent;
+  border: none;
+  border-right: 1px solid;
+  padding-left: 31px;
+  padding-right: 31px;
+  color: white;
+}
+
+.dollar-sign4 {
+  border: none;
+}
+
+.restaurant-image {
+  width: 60%;
+  border-radius: 20px 20px;
+  max-height: 300px;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 100%;
+  background: rgba(247,104,161,0.8);
+}
+
+.heading {
+  width: 100%;
+  font-size: 18px;
+  padding-top: 1%;
+  text-decoration: underline;
+}
+
+.popup-content {
+  max-width: 30%;
+}
+
+.more-details {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.more-details * {
+  margin-right: 10px;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  color: white;
+  background: rgba(247,104,161,1);
+  border-radius: 50px;
+  border:  2px solid rgba(174,1,126,0.6);
+}
+
+.more-info {
+  color: black;
+  background: rgba(247,104,161,0.8);
+  flex-direction: row;
+}
+
+.more-info * {
+  margin-right: 5px;
+}
+
+.popup-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 75px;
+  border: 3px solid rgba(221,52,151,0.6);
+  padding-left: 5px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  background: rgba(247,104,161,0.8);
+}
+
+@media (max-width: 640px) {
+  .popup-content{
+    max-width: 80%;
+  }
+  main {
+    height: 33em;
+  }
+  .App-logo {
+    height: 50px;
+  }
+  .App-header {
+    padding: 10px;
+  }
+  .App-footer {
+    font-size: 0.7em;
+  }
+  .yelp {
+  transform: translate(0px, 12px);
+  }
+  .modal {
+    font-size: 10px;
+  }
+  .heading {
+    font-size: 15px;
+  }
+  .restaurant-image {
+    width: 90%;
+  }
+}
