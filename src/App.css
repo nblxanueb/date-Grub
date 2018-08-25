@@ -251,4 +251,13 @@ body {
   .restaurant-image {
     width: 90%;
   }
+  .coffee {
+    padding-left: -10px;
+  }
+  .drinks {
+    padding-right: 10px;
+  }
+  dinner {
+    transform: translate(10px, 0px);
+  }
 }
