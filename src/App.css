@@ -99,14 +99,8 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
- .active, .dollar{
+ .active {
   background-color: rgba(0, 55, 84,0.7);
-  color: red;
- }
-
-.activePrice{
-  background-color: rgba(0, 55, 84,0.7);
-  color: yellow;
  }
 
 .search {
@@ -265,5 +259,8 @@ body {
   }
   .coffee, .drinks, .dinner, .loupe {
   transform: translate(-20px, 2px);
+  }
+  .dollar-sign1, .dollar-sign2, .dollar-sign3, .dollar-sign4 {
+  border: 1px solid rgba(0, 55, 84,0.9);
   }
 }
