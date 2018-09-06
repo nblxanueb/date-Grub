@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Header from './header.js';
 import Footer from "./footer.js";
-import image from './image.png';
 import coffee from './coffee.png';
 import drinks from "./drinks.png";
 import dinner from "./dinner.png";
 import search from "./search.png";
 import star from "./star.png";
 import yelp from "./yelp.png";
+import facebook from "./facebook.svg";
+import twitter from "./twitter.png";
 import {GoogleApiWrapper} from 'google-maps-react';
 import MapContainer from "./MapContainer";
-import Restaurant from './Restaurant';
 import Popup from "reactjs-popup";
 import { SocialIcon } from 'react-social-icons';
 import './App.css';
@@ -223,8 +223,12 @@ set4 = () => {
                         <a href={restaurant.url} target="_blank">
                           <img src={yelp} className="yelp" alt="read more" />
                         </a>
-                        <SocialIcon url={`https://www.facebook.com/dialog/share?app_id=80401312489&href=${restaurant.url}`} />
-                        <SocialIcon className="twitter" url={`https://twitter.com/intent/tweet?url=${restaurant.url}`} />
+                        <a href={`https://www.facebook.com/dialog/share?app_id=80401312489&href=${restaurant.url}`}>
+                          <img src={facebook} className="share" alt="facebook" />
+                        </a>
+                        <a href={`https://twitter.com/intent/tweet?url=${restaurant.url}`}>
+                          <img src={twitter} className="share" alt="twitter" />
+                        </a>
                       </div>
                     </div>}
                 </Popup>
