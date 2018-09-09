@@ -59,7 +59,7 @@ main {
 
 .yelp {
   width: 5em;
-  transform: translate(0px, 10px);
+  transform: translate(0px, 0px);
 }
 
 .share {

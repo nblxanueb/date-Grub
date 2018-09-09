@@ -47,6 +47,8 @@ Google Maps API - displays location of businesses on the map.
 
 
 #  Screen shots:
+![img1](https://i.imgur.com/MIf3sG5.png)
+![img2](https://i.imgur.com/PQhOCn2.png)
 
 
-![Image of Yaktocat](https://media.giphy.com/media/LW5wbpTsRT3U2T7Btn/giphy.gif)
+![giphy](https://media.giphy.com/media/8hYyuiu1RpcBWDwO5C/giphy.gif)
