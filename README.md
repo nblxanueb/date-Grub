@@ -51,6 +51,4 @@ Google Maps API - displays location of businesses on the map.
 ![img2](https://i.imgur.com/PQhOCn2.png)
 
 
-![giphy](https://media.giphy.com/media/8hYyuiu1RpcBWDwO5C/giphy.gif)
-
-![giphy2](https://media.giphy.com/media/8Bl3SbeML6vhh4Vy88/giphy.gif)
+![giphy](https://media.giphy.com/media/8hYyuiu1RpcBWDwO5C/giphy.gif)![giphy2](https://media.giphy.com/media/8Bl3SbeML6vhh4Vy88/giphy.gif)
